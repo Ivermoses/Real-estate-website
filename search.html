@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/images/favicon.png">
+  <!-- font awsome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- custom style -->
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/media.css">
+  <title>Search</title>
+</head>
+<body>
+
+  <!-- header section start here -->
+
+<header class="header">
+  <nav class="navbar nav-1">
+    <section class="flex">
+      <a href="index.html" class="logo"><img src="/assets/images/logo .png" alt="logo"></a>
+
+      <ul>
+        <li><a href="post_property.html">Post Property<i class="fas fa-paper-plane"></i></a></i></li>
+      </ul>
+    </section>
+  </nav>
+
+  <nav class="navbar nav-2">
+    <section class="flex">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Buy<i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="house.html">House</a></li>
+              <li><a href="flat.html">flat</a></li>
+              <li><a href="shop.html">shop</a></li>
+              <li><a href="#">Ready to Move</a></li>
+              <li><a href="#">furnished</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Sell<i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="post_property.html">Post Property</a></li>
+              <li><a href="#">dashboard</a></li>
+              
+            </ul>
+          </li>
+          <li><a href="#">Rent<i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="house.html">House</a></li>
+              <li><a href="flat.html">flat</a></li>
+              <li><a href="shop.html">shop</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Help<i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="search.html">Search Property</a></li>
+              <li><a href="listings.html">Property Listings</a></li>
+              <li><a href="about.html#faq">FAQ</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+       
+    <ul>
+     <li><a href="#">saved <i class="far fa-heart"></i></a></li>
+      <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+        <ul>
+          <li><a href="login.html">login</a></li>
+          <li><a href="register.html">register</a></li>
+        </ul>
+      </li>
+    </ul>
+    </section>
+  </nav>
+
+</header>
+
+  <!-- header section ends  here -->
+  
+<!-- search filter section start -->
+
+<section class="filter" style="padding-bottom: 0;">
+
+  <form action="" method="post">
+    <div id="close-filter"><i class="fas fa-times"></i></div>
+    <h3>filter your search</h3>
+    <div class="flex">
+      <div class="box">
+        <p>enter location </p>
+        <input type="text" name="location" required maxlength="50" placeholder="enter city name" class="input">
+      </div>
+      <div class="box">
+        <p>offer type </p>
+        <select name="offer" class="input" required>
+          <option value="sell">sell</option>
+          <option value="resale">resale</option>
+          <option value="rent">rent</option>
+          <option value="buy">buy</option>
+        </select>
+      </div>
+
+      <div class="box">
+        <p>property type </p>
+        <select name="type" class="input" required>
+          <option value="flat">flat</option>
+          <option value="house">house</option>
+          <option value="shop">shop</option>
+          <option value="office">office</option>
+        </select>
+      </div>
+    
+      <div class="box">
+        <p>how many BHK</p>
+        <select name="bhk" class="input" required>
+          <option value="1">1 bhk</option>
+          <option value="2">2 bhk</option>
+          <option value="3">3 bhk</option>
+          <option value="4">4 bhk</option>
+          <option value="5">5 bhk</option>
+          <option value="6">6 bhk</option>
+          <option value="7">7 bhk</option>
+          <option value="8">8 bhk</option>
+          <option value="9">9 bhk</option>
+          <option value="10">10 bhk</option>
+        </select>
+      </div>
+
+      <div class="box">
+        <p>Minimum</p>
+        <select name="minimum" class="input" required>
+          <option value="6250">6,250 USD</option>
+          <option value="12500">15,500 USD</option>
+          <option value="25000">40,000 USD</option>
+          <option value="37500">37,500 USD</option>
+          <option value="50000">90,000 USD</option>
+          <option value="62500">62,500 USD</option>
+          <option value="75000">75,000 USD</option>
+          <option value="62500">62,500 USD</option>
+          <option value="80000">80,000 USD</option>
+          <option value="72500">72,500 USD</option>
+          <option value="5000">50,000 USD</option>
+        </select>
+      </div>
+    
+      <div class="box">
+        <p>Maximum budget</p>
+        <select name="minimum" class="input" required>
+          <option value="6250">50,000 USD</option>
+          <option value="12500">12,500 USD</option>
+          <option value="25000">25,000 USD</option>
+          <option value="37500">37,500 USD</option>
+          <option value="50000">50,000 USD</option>
+          <option value="62500">62,500 USD</option>
+          <option value="75000">75,000 USD</option>
+          <option value="62500">62,500 USD</option>
+          <option value="80000">80,000 USD</option>
+          <option value="72500">72,500 USD</option>
+          <option value="5000">50,000 USD</option>
+        </select>
+      </div>
+
+      <div class="box">
+        <p>Status</p>
+        <select name="status" class="input" required>
+          <option value="Ready to move in">Ready to move in</option>
+          <option value="Ready to move in">Ready in the next three month</option>
+          <option value="under construction">under construction</option>
+        </select>
+      </div>
+
+      <div class="box">
+        <p>Furnished</p>
+        <select name="furnished" class="input" required>
+          <option value="unfurnished">Furnished</option>
+          <option value="Turnkey">Turnkey</option>
+          <option value="fully equipped">Fully Equipped</option>
+        </select>
+      </div>
+    </div>
+     <input type="submit" value="search property" class="btn">
+
+  </form>
+  
+</section>
+
+<!-- search filter section end -->
+
+<div id="filter-btn"><i class="fas fa-filter"></i></div>
+
+<!-- searched result section start here  -->
+<section class="listing">
+ 
+  <h1 class="heading">Searched results</h1>
+   
+  <div class="box-container">
+
+    <div class="box">
+      <div class="admin">
+        <h3>Q</h3>
+        <div>
+          <p>Qhung Gang</p>
+          <span>03-09-2024</span>
+        </div>
+      </div>
+      <div class="thumb">
+        <p class="total-images"><i class="fas fa-image"><span>4</span></i></p>
+        <p class="type"><span>house </span><span>rent</span></p>
+        <form action="" method="post" class="save">
+          <button type="submit" name="save" class="far fa-heart"></button>
+        </form>
+        <img src="/assets/images/house_img-1.jpg" alt="house_img-1">
+      </div>
+      <h3 class="name">Modern flats and appartments</h3>
+      <p class="location"><i class="fas fa-map-marker-alt"><span>Lagos, Nigeria - 500230</span></i></p>
+      <div class="flex">
+        <p><i class="fas fa-bed"> <span>3</span></i></p>
+        <p><i class="fas fa-bath"> <span>2</span></i></p>
+        <p><i class="fas fa-maximize"> <span>750sqft</span></i></p>
+      </div>
+      <a href="view_property.html" class="btn">View Property</a>
+    </div>
+
+    <div class="box">
+      <div class="admin">
+        <h3>J</h3>
+        <div>
+          <p>Fred Moses</p>
+          <span>23-08-2024</span>
+        </div>
+      </div>
+      <div class="thumb">
+        <p class="total-images"><i class="fas fa-image"><span>4</span></i></p>
+        <p class="type"><span>flat </span><span>sale</span></p>
+        <form action="" method="post" class="save">
+          <button type="submit" name="save" class="far fa-heart"></button>
+        </form>
+        <img src="/assets/images/house_img-2.jpg" alt="house_img-2">
+      </div>
+      <h3 class="name">Modern flats and appartments</h3>
+      <p class="location"><i class="fas fa-map-marker-alt"><span>Lagos, Nigeria - 500230</span></i></p>
+      <div class="flex">
+        <p><i class="fas fa-bed"> <span>3</span></i></p>
+        <p><i class="fas fa-bath"> <span>2</span></i></p>
+        <p><i class="fas fa-maximize"> <span>750sqft</span></i></p>
+      </div>
+      <a href="view_property.html" class="btn">View Property</a>
+    </div>
+
+    <div class="box">
+      <div class="admin">
+        <h3>I</h3>
+        <div>
+          <p>Iver Fred</p>
+          <span>23-08-2024</span>
+        </div>
+      </div>
+      <div class="thumb">
+        <p class="total-images"><i class="fas fa-image"><span>4</span></i></p>
+        <p class="type"><span>Office </span><span>sale</span></p>
+        <form action="" method="post" class="save">
+          <button type="submit" name="save" class="far fa-heart"></button>
+        </form>
+        <img src="/assets/images/house_img-3.jpg" alt="house_img-3">
+      </div>
+      <h3 class="name">Modern flats and appartments</h3>
+      <p class="location"><i class="fas fa-map-marker-alt"><span>Lagos, Nigeria - 500230</span></i></p>
+      <div class="flex">
+        <p><i class="fas fa-bed"> <span>3</span></i></p>
+        <p><i class="fas fa-bath"> <span>2</span></i></p>
+        <p><i class="fas fa-maximize"><span>750sqft</span></i></p>
+      </div>
+      <a href="view_property.html" class="btn">View Property</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- searched result section ends here  --> 
+
+
+
+
+
+
+
+
+
+<!-- footer section start here  -->
+
+<footer class="footer">
+  <section class="flex">
+    <div class="box">
+      <h2>Contact Links</h2>
+      <a href="08084701598"><i class="fas fa-phone"></i>
+      <span>08084701598</span></a>
+      <a href="07046856115"><i class="fas fa-phone"></i>
+      <span>07046856115</span></a>
+      <a href="mkeghtorgaiver@gmail.com"><i class="fas fa-envelope"></i>
+      <span>mkeghtorgaiver@gmail.com</span></a>
+      <a href="#"><i class="fas fa-map-marker-alt"></i>
+      <span>Lagos, Nigeria - 500230</span></a>
+    </div>
+
+    <div class="box">
+      <h2>Special Links</h2>
+      <a href="home.html"><span>Home</span></a>
+      <a href="about.html"><span>About us</span></a>
+      <a href="contact.html"><span>Contact us</span></a>
+      <a href="search.html"><span>Search Properties</span></a>
+      <a href="listings.html"><span>Listings</span></a>
+    </div>
+    
+    <div class="box">
+      <h2>Special Links</h2>
+      <a href="#"><span>Terms of Service</span></a>
+      <a href="#"><span>Privacy Policy</span></a>
+      <a href="#"><span>Cookie Policy</span></a>
+      <a href="#"><span>Security</span></a>
+      <a href="#"><span>Community</span></a>
+    </div>
+
+    <div class="box">
+      <h2>Social links</h2>
+      <!-- Facebook Icon -->
+      <a href="https://www.facebook.com/your-profile-link" target="_blank">
+        <i class="fab fa-facebook"></i><span> Facebook</span>
+      </a>
+
+      <!-- Twitter Icon -->
+      <a href="https://twitter.com/your-username" target="_blank">
+        <i class="fab fa-twitter"></i><span> Twitter</span>
+      </a>
+
+      <!-- LinkedIn Icon -->
+      <a href="https://www.linkedin.com/in/your-profile-link" target="_blank">
+       <i class="fab fa-linkedin"></i><span> Linkedin</span>
+      </a>
+
+      <!-- Instagram Icon -->
+      <a href="https://www.instagram.com/your-username" target="_blank">
+       <i class="fab fa-instagram"></i><span> Instagram</span>
+      </a>
+
+      <!-- GitHub Icon -->
+      <a href="https://github.com/Ivermoses" target="_blank">
+       <i class="fab fa-github"></i><span> github</span>
+      </a>
+
+    </div>
+
+  </section>
+  <div class="credit">
+    copyright &#169;2024 <span>Iver Moses</span>. All Rights Reserved
+  </div>
+</footer>
+
+
+
+<!-- footer section end here  -->
+
+  <!-- custom js file link -->
+   <script src="js/main.js"></script>
+   <script>
+
+    document.querySelector('#filter-btn').onclick = () =>{
+      document.querySelector('.filter').classList.add('active');
+    }
+    
+    document.querySelector('#close-filter').onclick = () =>{
+      document.querySelector('.filter').classList.remove('active');
+    }
+
+   </script>
+</body>
+</html>
