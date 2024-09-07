@@ -216,7 +216,7 @@ html {
 /* style for Home  start here  */
 
 .home {
-  background: url('/assets/images/home_bg.jpeg') no-repeat;
+  background: url('assets/images/home_bg.jpeg') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -1029,7 +1029,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(/assets/images/about-bg\ .png) no-repeat;
+  background: url(assets/images/about-bg\ .png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -1490,16 +1490,6 @@ main {
   border-radius: 4px;
   font-size: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
