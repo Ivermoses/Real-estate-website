@@ -216,7 +216,8 @@ html {
 /* style for Home  start here  */
 
 .home {
-  background: url('assets/images/home-bg.jpeg') no-repeat;
+  background: url('assets/images/home_bg.jpeg');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
