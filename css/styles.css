@@ -1539,10 +1539,6 @@ main {
   text-decoration: underline;
 }
 
-.footer .flex .box:last-child {
-  text-align: right;
-}
-
 .footer .flex .box:last-child a i{
   margin-left: 1.5rem;
 }
@@ -1551,9 +1547,9 @@ main {
   margin-right: 1.5rem;
 }
 
-.footer .flex .box:nth-child(2){
+/* .footer .flex .box:nth-child(2){
   text-align: center;
-}
+} */
 
 .footer .credit {
   padding: 3rem 2rem;
